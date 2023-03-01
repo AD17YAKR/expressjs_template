@@ -74,7 +74,7 @@ app.use(errorHandler);
 const port = process.env.PORT || 7979;
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Envision Ticket System 2023.....');
+    res.send('Welcome to the server');
 });
 
 const server = app.listen(port, console.log(`Server running in ${process.env.NODE_ENV} mode on ${port}`));
